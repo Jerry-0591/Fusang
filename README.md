@@ -1,4 +1,4 @@
-# Fusang 
+# Fusang [![logo](https://github.com/Jerry-0591/Fusang/blob/main/logo.jpg)](https://github.com/Jerry-0591/Fusang/blob/main/logo.jpg)
 
 💜 [fusang.cibr.ac.cn](fusang.cibr.ac.cn/) 💜
 
