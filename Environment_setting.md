@@ -12,8 +12,8 @@
 
    For my testing of 20 taxas with MSA length about 6.6K, the speed of CPU/GPU as follows:
    
-   Only CPU (using 12 cores)      ~3.79min 
-   Using GPU (NVIDIA TESLA V100)  ~1.01min 
+   Only CPU (using 12 cores):      ~3.79min 
+   Using GPU (NVIDIA TESLA V100):  ~1.01min 
    
    We recommend using GPU for accelerating.
    
