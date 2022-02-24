@@ -12,10 +12,8 @@
 
    For my testing of 20 taxas with MSA length about 6.6K, the speed of CPU/GPU as follows:
    
-   | Device type                   | Speed    |
-| ----------------------------- | -------- |
-   | Only CPU (using 12 cores)     | ~3.79min |
-| Using GPU (NVIDIA TESLA V100) | ~1.01min |
+   Only CPU (using 12 cores)      ~3.79min 
+   Using GPU (NVIDIA TESLA V100)  ~1.01min 
    
    We recommend using GPU for accelerating.
    
@@ -39,8 +37,7 @@
    pip install -r requirements.txt
    
    # This command may take several hours according to the network situation,  
-   # we suggest you use command like screen or nohup 
-   # in linux for installation
+   # we suggest you use command like screen or nohup in linux for installation
    ```
 
 7. Finish the installation of environment
