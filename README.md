@@ -1,7 +1,7 @@
 # Fusang <img align="right" src="https://github.com/Jerry-0591/Fusang/blob/main/logo.jpg" width="170" height="170"/>
 💜 [fusang.cibr.ac.cn](fusang.cibr.ac.cn/) 💜
 
-**Fusang is a framework used for the reconstruction of phylogenetic tree via deep learning methods. For current version, it supports the reconstruction of MSA with 4-40 taxas and the length of it should be less than 10,000.  **
+Fusang is a framework used for the reconstruction of phylogenetic tree via deep learning methods. For current version, it supports the reconstruction of MSA with 4-40 taxas and the length of it should be less than 10,000.
 
 ## Hardware requirements 
 
