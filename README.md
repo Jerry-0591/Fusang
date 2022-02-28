@@ -67,5 +67,5 @@ More examples see **Document.md**
 
 `requirements.txt` This file will be used for setting environment
 
-`example_command.txt` This command will generate the prdicted tree (in `example_dl_output` ) of input msa file (in `example_msa` ) 
+`example_command.sh` This command will generate the prdicted tree (in `example_dl_output` ) of input msa file (in `example_msa` ) 
 
