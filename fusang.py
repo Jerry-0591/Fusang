@@ -665,21 +665,21 @@ def fill_dl_predict(window_number):
 
 
 def fill_dl_predict_2(window_number):
-    if len_of_msa > 240:
-        step = (len_of_msa - 240) // window_number
-        start_idx = 0
-        for i in range(0, window_number):
-            end_idx = start_idx + 240
-            fill_dl_predict_each_slide_window_2(start_idx, end_idx)
-            start_idx += step
+    #if len_of_msa > 240:
+    step = (len_of_msa - 240) // window_number
+    start_idx = 0
+    for i in range(0, window_number):
+        end_idx = start_idx + 240
+        fill_dl_predict_each_slide_window_2(start_idx, end_idx)
+        start_idx += step
 
-    else:
-        step = (250 - 240) // window_number
-        start_idx = 0
-        for i in range(0, window_number):
-            end_idx = start_idx + 240
-            fill_dl_predict_each_slide_window_2(start_idx, end_idx)
-            start_idx += step
+    # else:
+    #     step = (250 - 240) // window_number
+    #     start_idx = 0
+    #     for i in range(0, window_number):
+    #         end_idx = start_idx + 240
+    #         fill_dl_predict_each_slide_window_2(start_idx, end_idx)
+    #         start_idx += step
 
 
 if __name__ == '__main__':
@@ -715,6 +715,7 @@ if __name__ == '__main__':
                 alignment = AlignIO.read(open(msa_dir), bio_format[i])
 
                 len_of_msa = len(alignment[0].seq)
+
                 taxa_num = len(alignment)
 
                 save_alignment = save_prefix + '_fusang.fas'
@@ -803,12 +804,12 @@ if __name__ == '__main__':
 
     dl_predict = np.zeros((len(comb_of_id), 3))
 
-    if len_of_msa > 1210:
+    if len_of_msa > 1200:
         fill_dl_predict(window_number)
-    elif len_of_msa <= 1210:
+    elif len_of_msa <= 1200 and len_of_msa >=240:
         fill_dl_predict_2(window_number)
     else:
-        print('current version of fusang do not support this length of MSA')
+        print('Current version of fusang do not support this length of MSA')
         sys.exit(1)
 
     dl_predict /= window_number
