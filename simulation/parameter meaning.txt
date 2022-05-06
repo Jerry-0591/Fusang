@@ -1,0 +1,11 @@
+--num_of_topology   							num of msas that you want to simulate
+--taxa_num 										how many taxas you want to have in the final tree
+--range_of_taxa_num  							the taxas of the big tree that you want to sample the final tree from  attention: the lower bound of it should >= taxa_num
+--len_of_msa_upper_bound						the upper bound of msa length
+--len_of_msa_lower_bound 						the lower bound of msa length
+--num_of_process 								the processes that you use to accelerate the simulation
+--distribution_of_internal_branch_length 		like '[a,b,c]' if a==0 will use uniform(b,c) if a==1 will use gamma(b,c)
+--distribution_of_external_branch_length		usage the same as --distribution_of_internal_branch_length 
+--range_of_mean_pairwise_divergence				the range of expected mean pairwise divergence
+--range_of_indel_substitution_rate				the range of indel substitution rate
+--max_indel_length								the maximum of indel length in the msa
