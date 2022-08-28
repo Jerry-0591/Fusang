@@ -69,3 +69,4 @@ More examples see **Document.md**
 
 `example_command.sh` This command will generate the prdicted tree (in `example_dl_output` ) of input msa file (in `example_msa` ) 
 
+`Experimental phylogeny.zip` This file contains the data of experimental phylogeny experiments
