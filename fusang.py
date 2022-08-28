@@ -687,7 +687,7 @@ if __name__ == '__main__':
     p_input = parser.add_argument_group("INPUT")
     p_input.add_argument("--msa_dir", action="store", type=str, required=True)
     p_input.add_argument("--save_prefix", action="store", type=str, required=True)
-    p_input.add_argument("--beam_size", action="store", type=str, default='3', required=False)
+    p_input.add_argument("--beam_size", action="store", type=str, default='1', required=False)
     p_input.add_argument("--sequence_type", action="store", type=str, default='standard', required=False)
     p_input.add_argument("--branch_model", action="store", type=str, default='gamma', required=False)
     p_input.add_argument("--window_coverage", action="store", type=str, default='1', required=False)
