@@ -78,7 +78,7 @@ You can set the parameters as follows for specific scenario
 
 `fusang.py` The code for tree reconstruction
 
-`logo.jpg` The log of Fusang project
+`logo.jpg` The logo of Fusang project
 
 `requirements.txt` This file will be used for setting environment
 
