@@ -3,3 +3,4 @@
 
 The data link of Fusang manuscript:
 
+Simulation scripts: https://github.com/Jerry-0591/Fusang/tree/main/simulation
