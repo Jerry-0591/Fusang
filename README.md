@@ -66,10 +66,22 @@ You can set the parameters as follows for specific scenario
 
 `example_msa` The directory that saves the example of input msa file
 
-`fusang.py` The code for tree reconstruction 
+`public data` The data of Fusang manuscript
 
-`requirements.txt` This file will be used for setting environment
+`simulation` The scripts used for simulation
+
+`Environment_setting.md` The description of setting Fusang environment
+
+`Experimental phylogeny.zip` This file contains the data of experimental phylogeny experiments
 
 `example_command.sh` This command will generate the prdicted tree (in `example_dl_output` ) of input msa file (in `example_msa` ) 
 
-`Experimental phylogeny.zip` This file contains the data of experimental phylogeny experiments
+`fusang.py` The code for tree reconstruction
+
+`logo.jpg` The log of Fusang project
+
+`requirements.txt` This file will be used for setting environment
+
+
+
+
