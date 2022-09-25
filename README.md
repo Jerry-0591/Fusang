@@ -41,6 +41,7 @@ The meaning of these two mandatory parameter:
 
 ### 2. Parameter setting
 `--msa_dir` The path of your msa file
+
 `--save_prefix` The prefix of the result file
 
 You can set the parameters as follows for specific scenario
