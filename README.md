@@ -40,18 +40,20 @@ The meaning of these two mandatory parameter:
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### 2. Parameter setting
+`--msa_dir` The path of your msa file
+`--save_prefix` The prefix of the result file
 
 You can set the parameters as follows for specific scenario
 
-`--beam_size` The size of beam in the beam search procedure, default setting is 3. 
+`--beam_size` The size of beam in the beam search procedure, default beam size is 1
 
-`--sequence_type` The size of beam in the beam search procedure  
+`--sequence_type` The type of the sequences in msa, which has three choices, coding, noncoding and standard (default, means both coding and noncoding)
 
-`--branch_model` The size of beam in the beam search procedure  
+`--branch_model` The distribution type of the branches, which has gamma (default) and uniform as choices
 
-`--window coverage` The size of beam in the beam search procedure  
+`--window coverage` The coverage of slide window, which decides the step of this algorithm. The default setting is 1
 
-More examples see **Document.md**
+
 
 
 
