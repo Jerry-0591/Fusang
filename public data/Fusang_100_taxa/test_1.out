@@ -1,0 +1,205 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    fat03 (AVX512, FMA3, 1510 GB RAM)
+Command: iqtree -s ./simulation/fasta_file/t_sim1_TRUE.fas -m GTR+G4+F -b 1 -nt 12
+Seed:    353077 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Sep 18 10:47:27 2021
+Kernel:  AVX+FMA - 12 threads (56 CPU cores detected)
+
+Reading alignment file ./simulation/fasta_file/t_sim1_TRUE.fas ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+WARNING: 6 sites contain only gaps or ambiguous characters.
+Alignment has 100 sequences with 5298 columns, 1653 distinct patterns
+344 parsimony-informative, 42 singleton sites, 4912 constant sites
+    Gap/Ambiguity  Composition  p-value
+   1  0    47.92%    passed     94.85%
+   2  61   48.51%    passed     99.17%
+   3  68   48.30%    passed     96.46%
+   4  33   48.00%    passed     87.13%
+   5  35   48.91%    passed     97.93%
+   6  89   49.00%    passed     85.55%
+   7  12   49.24%    passed     99.84%
+   8  3    49.79%    passed     96.99%
+   9  52   49.24%    passed     90.11%
+  10  18   50.55%    passed     99.14%
+  11  92   50.04%    passed     96.33%
+  12  67   49.40%    passed     95.17%
+  13  80   50.70%    passed     97.40%
+  14  38   50.43%    passed     94.20%
+  15  40   50.70%    passed     88.18%
+  16  47   51.11%    passed     64.05%
+  17  75   50.53%    passed     81.96%
+  18  36   50.43%    passed     87.39%
+  19  82   49.55%    passed     85.89%
+  20  29   49.06%    passed     73.62%
+  21  98   49.49%    passed     74.59%
+  22  41   49.72%    passed     98.99%
+  23  97   49.72%    passed     96.11%
+  24  31   49.58%    passed     92.31%
+  25  66   49.32%    passed     87.73%
+  26  70   49.70%    passed     79.51%
+  27  20   49.41%    passed     89.57%
+  28  5    49.62%    passed     88.04%
+  29  65   49.62%    passed     99.18%
+  30  77   49.13%    passed     93.82%
+  31  93   49.34%    passed     98.09%
+  32  78   48.96%    passed     78.44%
+  33  64   49.51%    passed     92.72%
+  34  22   49.24%    passed     99.03%
+  35  86   49.04%    passed     62.59%
+  36  1    47.45%    passed     97.72%
+  37  17   48.09%    passed     87.76%
+  38  2    47.19%    passed     58.17%
+  39  56   46.72%    passed     96.01%
+  40  7    47.36%    passed     93.90%
+  41  53   46.94%    passed     88.38%
+  42  27   48.23%    passed     78.61%
+  43  91   48.38%    passed     53.79%
+  44  25   48.92%    passed     90.59%
+  45  57   49.06%    passed     91.31%
+  46  14   48.89%    passed     97.34%
+  47  72   48.55%    passed     99.17%
+  48  34   48.41%    passed     98.02%
+  49  11   48.32%    passed     99.11%
+  50  59   48.47%    passed     97.65%
+  51  84   49.47%    passed     99.29%
+  52  15   49.06%    passed     98.97%
+  53  81   48.00%    passed     96.10%
+  54  60   47.57%    passed     96.42%
+  55  79   48.04%    passed     95.22%
+  56  58   47.77%    passed     93.65%
+  57  55   47.49%    passed     96.66%
+  58  45   49.08%    passed     78.99%
+  59  62   48.92%    passed     97.56%
+  60  46   49.41%    passed     93.84%
+  61  85   49.43%    passed     81.11%
+  62  8    49.17%    passed     86.12%
+  63  95   49.74%    passed     88.24%
+  64  54   51.00%    passed     89.98%
+  65  51   51.06%    passed     96.59%
+  66  73   50.81%    passed     97.36%
+  67  39   50.76%    passed     91.37%
+  68  88   50.76%    passed     94.99%
+  69  96   48.62%    passed     84.78%
+  70  69   49.89%    passed     83.45%
+  71  21   49.02%    passed     77.72%
+  72  9    49.51%    passed     86.30%
+  73  49   48.45%    passed     88.18%
+  74  63   50.83%    passed     99.80%
+  75  6    51.13%    passed     97.61%
+  76  76   50.09%    passed     98.19%
+  77  16   48.79%    passed     93.77%
+  78  24   48.36%    passed     97.41%
+  79  50   50.02%    passed     98.65%
+  80  42   50.23%    passed     97.75%
+  81  23   50.42%    passed     98.85%
+  82  83   50.51%    passed     98.55%
+  83  28   50.26%    passed     99.05%
+  84  19   51.11%    passed     78.54%
+  85  30   51.34%    passed     82.25%
+  86  43   51.74%    passed     96.41%
+  87  71   51.49%    passed     89.31%
+  88  4    52.77%    passed     88.70%
+  89  44   52.13%    passed     91.22%
+  90  74   52.08%    passed     99.74%
+  91  37   51.38%    passed     99.53%
+  92  32   49.09%    passed     89.31%
+  93  99   49.53%    passed     73.12%
+  94  26   49.43%    passed     57.71%
+  95  10   49.58%    passed     95.75%
+  96  48   50.23%    passed     99.65%
+  97  13   50.23%    passed     77.66%
+  98  94   50.34%    passed     97.80%
+  99  90   49.72%    passed     98.38%
+ 100  87   49.91%    passed     85.70%
+WARNING: 32 sequences contain more than 50% gaps/ambiguity
+****  TOTAL   49.50%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+===> START BOOTSTRAP REPLICATE NUMBER 1
+
+Creating bootstrap alignment (seed: 353077)...
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.007 seconds
+
+NOTE: 16 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -49040.998
+2. Current log-likelihood: -39052.682
+3. Current log-likelihood: -39005.497
+4. Current log-likelihood: -39005.378
+Optimal log-likelihood: -39005.342
+Rate parameters:  A-C: 0.91125  A-G: 0.95704  A-T: 0.83347  C-G: 0.92068  C-T: 0.89138  G-T: 1.00000
+Base frequencies:  A: 0.253  C: 0.258  G: 0.241  T: 0.248
+Gamma shape alpha: 0.020
+Parameters optimization took 4 rounds (0.407 sec)
+Computing ML distances based on estimated model parameters... 0.222 sec
+Computing BIONJ tree...
+0.006 seconds
+Log-likelihood of BIONJ tree: -39217.846
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.055 second
+Computing log-likelihood of 98 initial trees ... 3.630 seconds
+Current best score: -38997.559
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -38975.840
+Iteration 10 / LogL: -38989.554 / Time: 0h:0m:7s
+Iteration 20 / LogL: -38995.731 / Time: 0h:0m:8s
+Finish initializing candidate tree set (14)
+Current best tree score: -38975.840 / CPU time: 8.289
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -38975.399
+Iteration 30 / LogL: -39042.141 / Time: 0h:0m:12s (0h:0m:41s left)
+Iteration 40 / LogL: -38991.124 / Time: 0h:0m:16s (0h:0m:36s left)
+Iteration 50 / LogL: -38975.661 / Time: 0h:0m:20s (0h:0m:31s left)
+Iteration 60 / LogL: -38975.636 / Time: 0h:0m:24s (0h:0m:27s left)
+Iteration 70 / LogL: -38976.521 / Time: 0h:0m:27s (0h:0m:22s left)
+Iteration 80 / LogL: -38977.300 / Time: 0h:0m:31s (0h:0m:18s left)
+Iteration 90 / LogL: -38976.759 / Time: 0h:0m:35s (0h:0m:14s left)
+Iteration 100 / LogL: -38977.027 / Time: 0h:0m:38s (0h:0m:10s left)
+Iteration 110 / LogL: -38975.621 / Time: 0h:0m:42s (0h:0m:6s left)
+Iteration 120 / LogL: -38975.765 / Time: 0h:0m:46s (0h:0m:2s left)
+TREE SEARCH COMPLETED AFTER 127 ITERATIONS / Time: 0h:0m:48s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -38975.399
+Optimal log-likelihood: -38975.394
+Rate parameters:  A-C: 0.91061  A-G: 0.95347  A-T: 0.83433  C-G: 0.93447  C-T: 0.90651  G-T: 1.00000
+Base frequencies:  A: 0.253  C: 0.258  G: 0.241  T: 0.248
+Gamma shape alpha: 0.020
+Parameters optimization took 1 rounds (0.043 sec)
+BEST SCORE FOUND : -38975.394
+Total tree length: 7.971
+
+Total number of iterations: 127
+CPU time used for tree search: 568.768 sec (0h:9m:28s)
+Wall-clock time used for tree search: 48.266 sec (0h:0m:48s)
+Total CPU time used: 575.779 sec (0h:9m:35s)
+Total wall-clock time used: 48.900 sec (0h:0m:48s)
+
+Analysis results written to: 
+  IQ-TREE report:                ./simulation/fasta_file/t_sim1_TRUE.fas.iqtree
+  Likelihood distances:          ./simulation/fasta_file/t_sim1_TRUE.fas.mldist
+  Screen log file:               ./simulation/fasta_file/t_sim1_TRUE.fas.log
+
+
+Total CPU time for bootstrap: 575.851 seconds.
+Total wall-clock time for bootstrap: 48.930 seconds.
+
+Non-parametric bootstrap results written to:
+Bootstrap trees:          ./simulation/fasta_file/t_sim1_TRUE.fas.boottrees
+
+Date and Time: Sat Sep 18 10:48:16 2021

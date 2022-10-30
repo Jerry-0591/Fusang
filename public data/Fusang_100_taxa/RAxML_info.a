@@ -1,0 +1,88 @@
+IMPORTANT WARNING: Alignment column 348 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 349 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 350 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 351 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 3351 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 3352 contains only undetermined values which will be treated as missing data
+
+IMPORTANT WARNING
+Found 6 columns that contain only undetermined values which will be treated as missing data.
+Normally these columns should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+undetermined columns removed is printed to file ./simulation/fasta_file/t_sim1_TRUE.fas.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+Alignment has 6 completely undetermined sites that will be automatically removed from the input data
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1652 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 49.50%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1652
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -m GTRGAMMA -p 12345 -s ./simulation/fasta_file/t_sim1_TRUE.fas -n a -T 12 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.245 0.258 0.251 0.246 
+
+Inference[0]: Time 191.412156 GAMMA-based likelihood -36400.288011, best rearrangement setting 10
+alpha[0]: 0.020000 rates[0] ac ag at cg ct gt: 1.012504 1.015965 1.001796 0.994116 1.018181 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -36400.286157 tree written to file /GPFS/zhangli_lab_permanent/wangzhicheng/Fusang_repository_3_fastmode/evaluation_2021_0621/100_taxa_final_use/RAxML_result.a
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -36400.286157 .... 
+
+Final GAMMA-based Score of best tree -36400.286157
+
+Program execution info written to /GPFS/zhangli_lab_permanent/wangzhicheng/Fusang_repository_3_fastmode/evaluation_2021_0621/100_taxa_final_use/RAxML_info.a
+Best-scoring ML tree written to: /GPFS/zhangli_lab_permanent/wangzhicheng/Fusang_repository_3_fastmode/evaluation_2021_0621/100_taxa_final_use/RAxML_bestTree.a
+
+Overall execution time: 330.479175 secs or 0.091800 hours or 0.003825 days
+
