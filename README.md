@@ -82,6 +82,10 @@ You can set the parameters as follows for specific scenario
 
 `requirements.txt` This file will be used for setting environment
 
+References:
+Zou Z, Zhang H, Guan Y, Zhang JJMB, Evolution. 2020. Deep residual neural networks resolve quartet molecular phylogenies.  37:1495-1507.
+Suvorov A, Hochuli J, Schrider DRJSB. 2019. Accurate Inference of Tree Topologies from Multiple Sequence Alignments Using Deep Learning.  69:221-233.
+
 
 
 
