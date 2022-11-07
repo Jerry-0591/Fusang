@@ -88,6 +88,6 @@ Zou Z, Zhang H, Guan Y, Zhang JJMB, Evolution. 2020. Deep residual neural networ
 
 Suvorov A, Hochuli J, Schrider DRJSB. 2019. Accurate Inference of Tree Topologies from Multiple Sequence Alignments Using Deep Learning.  69:221-233.
 
-
+https://github.com/martin-sicho/PTreeGenerator/blob/c6eddaf613a0058959b2f077458fad6fe689241e/src/ptreegen/parsimony.py
 
 
