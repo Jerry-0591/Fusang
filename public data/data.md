@@ -5,6 +5,6 @@ The data link of Fusang manuscript:
 
 Simulation scripts: https://github.com/Jerry-0591/Fusang/tree/main/simulation
 
-Repository of all Data used in the manuscript: http://117.133.167.130:3557/sharing/wIAa39QP3 
+Repository of Data used in the manuscript: http://117.133.167.130:3557/sharing/wIAa39QP3 
 
 Password of public data: Ab@2023
