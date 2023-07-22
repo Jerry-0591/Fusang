@@ -1,9 +1,9 @@
 # Environment setting
 ## Hardware environment
 ### Our benchmark server
-Intel(R) Xeon(R) Gold 6140 CPU with base clock speed 2.30GHz and 12 cores used, 1 Tesla V100 SXM2 GPU with Video RAM 32GB, ~48 GB RAM used
+Intel(R) Xeon(R) Gold 6140 CPU with base clock speed 2.30GHz and 12 cores used, 1 Tesla V100 SXM2 GPU with Video RAM 32GB
 ### Requirement of hardware
-GPU is unnecessary, RAM larger than 24 GB is required.
+GPU is unnecessary, RAM larger than 24 GB is required
 ## software environment
 1. Install [Python 3.7](https://www.python.org/downloads/release/python-370/)
 
